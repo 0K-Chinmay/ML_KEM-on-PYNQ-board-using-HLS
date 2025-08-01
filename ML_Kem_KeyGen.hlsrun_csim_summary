@@ -1,0 +1,162 @@
+<ENTRY>
+{
+ "thisFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\ML_Kem_KeyGen.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/19/25 19:59:55",
+ "timestampMillis": "588738967",
+ "buildStep": {
+  "cmdId": "1b699fa7-4c61-45f5-8740-050c7d302bf0",
+  "name": "vitis-run",
+  "logFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\logs\\ML_Kem_KeyGen.steps.log",
+  "commandLine": "D:/vitis/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\ML_Kem_HLS\\ML_Kem_KeyGen\\hls_config.cfg --work_dir ML_Kem_KeyGen ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\ML_Kem_HLS\\ML_Kem_KeyGen\\hls_config.cfg",
+   "--work_dir",
+   "ML_Kem_KeyGen"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\ML_Kem_HLS\\ML_Kem_KeyGen"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/19/25 19:59:55",
+ "timestampMillis": "588738968",
+ "status": {
+  "cmdId": "1b699fa7-4c61-45f5-8740-050c7d302bf0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/19/25 20:00:03",
+ "timestampMillis": "588746699",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "mlkem512_keygen_top",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\types.h",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\main.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\poly.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\polyvec.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\cypto.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\keygen.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\unified.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/19/25 20:00:03",
+ "timestampMillis": "588746701",
+ "buildStep": {
+  "cmdId": "25f5fae2-b6f1-4f12-84a5-22010992a340",
+  "name": "csim_design",
+  "logFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ML_Kem_HLS\\ML_Kem_KeyGen"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/19/25 20:00:03",
+ "timestampMillis": "588746702",
+ "status": {
+  "cmdId": "25f5fae2-b6f1-4f12-84a5-22010992a340",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/19/25 20:00:10",
+ "timestampMillis": "588754222",
+ "status": {
+  "cmdId": "25f5fae2-b6f1-4f12-84a5-22010992a340",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/19/25 20:00:11",
+ "timestampMillis": "588754424",
+ "status": {
+  "cmdId": "1b699fa7-4c61-45f5-8740-050c7d302bf0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/19/25 20:00:11",
+ "timestampMillis": "588754425",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/19/25 20:00:11",
+ "timestampMillis": "588754426",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

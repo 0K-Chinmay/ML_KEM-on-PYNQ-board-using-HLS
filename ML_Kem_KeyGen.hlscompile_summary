@@ -1,0 +1,251 @@
+<ENTRY>
+{
+ "thisFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\ML_Kem_KeyGen.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "07/20/25 20:27:13",
+ "timestampMillis": "676776710",
+ "buildStep": {
+  "cmdId": "6373256a-f9ab-452b-a4e8-ebc4eb52caaf",
+  "name": "v++",
+  "logFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\logs\\ML_Kem_KeyGen.steps.log",
+  "commandLine": "D:/vitis/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\ML_Kem_HLS\\ML_Kem_KeyGen\\hls_config.cfg --work_dir ML_Kem_KeyGen ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\ML_Kem_HLS\\ML_Kem_KeyGen\\hls_config.cfg",
+   "--work_dir",
+   "ML_Kem_KeyGen"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=types.h\nsyn.file=main.cpp\nsyn.file=poly.cpp\nsyn.file=polyvec.cpp\nsyn.file=cypto.cpp\nsyn.file=keygen.cpp\nsyn.file=unified.h\ntb.file=main_test.cpp\ntb.file=sha3_test.cpp\ntb.file=ntt_Test.cpp\nsyn.top=mlkem512_keygen_top\nclock=50Mhz"
+   }
+  ],
+  "cwd": "D:\\ML_Kem_HLS\\ML_Kem_KeyGen"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/20/25 20:27:13",
+ "timestampMillis": "676776710",
+ "status": {
+  "cmdId": "6373256a-f9ab-452b-a4e8-ebc4eb52caaf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783056",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "mlkem512_keygen_top",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\types.h",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\main.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\poly.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\polyvec.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\cypto.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\keygen.cpp",
+     "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\unified.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783058",
+ "buildStep": {
+  "cmdId": "6bff2e0c-19dd-4f91-87d6-72ee920c5931",
+  "name": "csynth_design",
+  "logFile": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls\\hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\ML_Kem_HLS\\ML_Kem_KeyGen"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783059",
+ "status": {
+  "cmdId": "6bff2e0c-19dd-4f91-87d6-72ee920c5931",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783060",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783061",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:27:19",
+ "timestampMillis": "676783061",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:52:45",
+ "timestampMillis": "678308494",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:52:45",
+ "timestampMillis": "678308495",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:52:45",
+ "timestampMillis": "678308496",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/20/25 20:52:45",
+ "timestampMillis": "678308496",
+ "status": {
+  "cmdId": "6bff2e0c-19dd-4f91-87d6-72ee920c5931",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "07/20/25 20:52:52",
+ "timestampMillis": "678315650",
+ "status": {
+  "cmdId": "6373256a-f9ab-452b-a4e8-ebc4eb52caaf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:52:52",
+ "timestampMillis": "678315893",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\reports\\v++_compile_ML_Kem_KeyGen_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "07/20/25 20:52:52",
+ "timestampMillis": "678315894",
+ "report": {
+  "path": "D:/ML_Kem_HLS\\ML_Kem_KeyGen\\ML_Kem_KeyGen\\reports\\.db\\v++_compile_ML_Kem_KeyGen_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
